@@ -11,12 +11,12 @@ public class Agendamento
        while (true)
             {
             Console.WriteLine("Digite a data (dd/mm/aaaa) ou digite 'sair' para encerrar:");
-            string input = Console.ReadLine();
+            string? sair = Console.ReadLine();
 
-            if (input.ToLower() == "sair")
+            if (sair.ToLower() == "sair")
                 break;
 
-            if (DateTime.TryParse(input, out DateTime data))
+            if (DateTime.TryParse(sair, out DateTime data))
             {
                 if (agenda.ContainsKey(data))
                 {
@@ -24,10 +24,10 @@ public class Agendamento
                 }
                 else
                 {
-                    Console.WriteLine("Digite o evento:");
-                    string evento = Console.ReadLine();
-                    agenda.Add(data, evento);
-                    Console.WriteLine("Evento agendado!");
+                    Console.WriteLine("Digite qual equipamento gostaria de solicitar:");
+                    string? reserva = Console.ReadLine();
+                    agenda.Add(data, reserva);
+                    Console.WriteLine("Equipamento reservado com sucesso!");
                 }
             }
             else
