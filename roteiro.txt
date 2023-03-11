@@ -1,0 +1,13 @@
+O Colégio Vencer Sempre disponibiliza equipamentos de informática e vídeo (tais como
+datashows, TV com VCR, TV com DVD, projetor de slides, sistemas de áudio-microfone,
+caixa amplificada, notebooks, kits multimídia etc.), como ferramentas de apoio para aulas e
+palestras, aos professores e aos coordenadores da instituição, alocando-os em salas de aula
+e auditórios, a pedido antecipado dos colaboradores.
+ Atualmente, o sistema de reserva é manual e muitos professores não conseguem utilizar
+os recursos que precisam, pois o agendamento é ineficiente; vendo isso, o colégio contratou
+sua “empresa de software” para desenvolver esse sistema.
+
+Programação Orientada a Objetos I:
+Descreva tecnicamente os fundamentos acadêmicos sobre:
+ Objetos, classes, herança e polimorfismo;
+ Identifique esses elementos técnicos em seu sistema.
