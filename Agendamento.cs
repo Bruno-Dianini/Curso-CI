@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 public class Agendamento
 {
-    public int escolha;
-     Dictionary<DateTime, string> agenda = new Dictionary<DateTime, string>();
+    public string? sair;
+     Dictionary<DateTime, string?> agenda = new Dictionary<DateTime, string?>();
 
     public void dataAgenda()
     {
        while (true)
             {
             Console.WriteLine("Digite a data (dd/mm/aaaa) ou digite 'sair' para encerrar:");
-            string? sair = Console.ReadLine();
+            sair = Console.ReadLine();
 
-            if (sair.ToLower() == "sair")
+            if (sair == "sair")
                 break;
 
             if (DateTime.TryParse(sair, out DateTime data))
@@ -38,7 +38,7 @@ public class Agendamento
 
         Console.WriteLine("\nAgenda:");
 
-        foreach (KeyValuePair<DateTime, string> item in agenda)
+        foreach (KeyValuePair<DateTime, string?> item in agenda)
         {
             Console.WriteLine("{0}: {1}", item.Key.ToShortDateString(), item.Value);
         }

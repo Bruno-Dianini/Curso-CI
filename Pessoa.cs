@@ -7,7 +7,7 @@ public class Pessoa:Usuario
 
     public void colaborador()
     {   
-    
+    Console.WriteLine("Gostaria de agendar para quem?");
     Console.WriteLine("[1]Professor [2] Coodernador");
     
     professor = Convert.ToInt32(Console.ReadLine());
@@ -15,10 +15,10 @@ public class Pessoa:Usuario
     switch (professor)
     {
         case 1:
-            Console.WriteLine("Professor aceito");
+            Console.WriteLine("Agendamento para Professor");
             break;
         case 2:
-            Console.WriteLine("Coodernador aceito");
+            Console.WriteLine("Agendamento para Coodernador ");
             break;
         default:
             professor = -1;
