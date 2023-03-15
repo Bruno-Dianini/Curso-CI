@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bdian\\Desktop\\pim\\pim.csproj": {}
+    "C:\\Users\\bdian\\Desktop\\pim\\pim\\pim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bdian\\Desktop\\pim\\pim.csproj": {
+    "C:\\Users\\bdian\\Desktop\\pim\\pim\\pim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bdian\\Desktop\\pim\\pim.csproj",
+        "projectUniqueName": "C:\\Users\\bdian\\Desktop\\pim\\pim\\pim.csproj",
         "projectName": "pim",
-        "projectPath": "C:\\Users\\bdian\\Desktop\\pim\\pim.csproj",
+        "projectPath": "C:\\Users\\bdian\\Desktop\\pim\\pim\\pim.csproj",
         "packagesPath": "C:\\Users\\bdian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bdian\\Desktop\\pim\\obj\\",
+        "outputPath": "C:\\Users\\bdian\\Desktop\\pim\\pim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bdian\\AppData\\Roaming\\NuGet\\NuGet.Config"
